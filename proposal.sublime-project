@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": ".",
+			"file_exclude_patterns": ["*.aux", "*.acn", "*.glo", "*.bbl", "*.ist", "*.log", "*.lot", "*.out", "*.sbl", "*.lof", "*.pdf", "*.jpg", "*.toc", "*.fdb_latexmk", "*.blg", "*.synctex.gz", "*.zip"]
+		}
+	]
+}
