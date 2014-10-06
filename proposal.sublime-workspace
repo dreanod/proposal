@@ -117,36 +117,6 @@
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.tex",
-			"settings":
-			{
-				"buffer_size": 4931,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Please note that this template is built on MikTeX 2.8, LaTeX2e and LEd (build 0.536501)\n\nThis folder named KAUST Thesis Template includes the following files. Their usage is also explained.\n\n 1. Abstract.tex       - This file will include your thesis abstract.\n 2. Acknowledgment.tex - This file will include acknowledgments, if any.\n 3. Lists.tex          - This file will include any abbreviations, symbols or glossary entries.\n 4. Introduction.tex   - This is where the introduction of your thesis will be placed.\n 5. Chapter_2.tex      - This will include the contents of Chapter 2 of your thesis.\n 6. Chapter_3.tex      - This will include the contents of Chapter 3 of your thesis.\n 7. Chapter_4.tex      - This will include the contents of Chapter 4 of your thesis.\n 8. Chapter_5.tex      - This will include the contents of Chapter 5 of your thesis.\n\nSimilarly you may create such files for further chapters.\n\n 9. Conclusion.tex - This will include the conclusion of your thesis.\n10. Appendix_A.tex - This is where you will place your first appendix.\n11. Appendix_B.tex - This is where you will place your second appendix.\n\nSimilarly you may create such files for further appendices.\n\n12. Papers.tex - This will be the last appendix part of your appendices.\n13. References - This will have your references.\n14. Thesis.tex - This file connects all the different files mentioned above and compile it into a single file.\n\nYou may contact me 24/7 for any further assistance.\n\nCopyright 2010 Imran Shafique Ansari\n\nContact Email: imran.ansari@kaust.edu.sa\nContact Number: +966 59 897 1005",
-			"file": "KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Read Me.txt",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 1590,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/Users/denis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 178,
-				"line_ending": "Unix"
-			}
-		}
-	],
 	"build_system": "",
 	"command_palette":
 	{
@@ -246,12 +216,17 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/denis/Dropbox/repos/proposal"
-	],
 	"file_history":
 	[
+		"/Users/denis/Dropbox/repos/proposal/latex/Conclusion.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_4.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_3.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_2.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Abstract.tex",
+		"/Users/denis/Dropbox/repos/proposal/KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.tex",
+		"/Users/denis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/denis/Dropbox/repos/proposal/proposal.sublime-project",
+		"/Users/denis/Dropbox/repos/proposal/KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Read Me.txt",
 		"/Users/denis/Dropbox/repos/proposal/proposal.tex",
 		"/Users/denis/Dropbox/repos/proposal/KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.acn",
 		"/Users/denis/Dropbox/code/repos/c_programming_language/chap1/a.out",
@@ -366,20 +341,11 @@
 		"/Users/denis/Dropbox/thesis/projects/current_projects/chl_red_sea_clust/src/gmm1.py",
 		"/Users/denis/Dropbox/thesis/data/tools/h4h5tools-2.2.2/README.txt",
 		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/clean_workspace.py",
-		"/Users/denis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/latex/Bayesian_NPZ.bib",
 		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/latex/Bayesian NPZ.bib",
 		"/Users/denis/Dropbox/repos/phd/bayesian-inversions-of-npz-model/bayesian_inversion_of_npz_model.sublime-project",
 		"/Users/denis/Dropbox/thesis/projects/current_projects/chl_and_space_time_cov_model/latex/article.fff",
-		"/Users/denis/Dropbox/thesis/projects/bayesian_inversion_of_npz_model/latex/article.fdb_latexmk",
-		"/Users/denis/Dropbox/thesis/projects/current_projects/chl_and_space_time_cov_model/src/xp20131028/latitudes",
-		"/Users/denis/Dropbox/thesis/projects/past_projects/da2013/lorenz63.py",
-		"/Users/denis/Dropbox/thesis/projects/current_projects/chl_clust/article.tex",
-		"/Users/denis/Dropbox/thesis/projects/bayesian_inversion_of_npz_model/latex/article.tex",
-		"/Users/denis/Dropbox/thesis/projects/bayesian_inversion_of_npz_model/latex/article.aux",
-		"/Users/denis/Dropbox/thesis/projects/current_projects/chl_clust/article.Rnw",
-		"/Users/denis/Dropbox/thesis/projects/current_projects/chl_clust/article-concordance.tex",
-		"/Users/denis/Dropbox/thesis/projects/current_projects/chl_and_space_time_cov_model/src/1-DINEOF/Output/outputEof (silas-Lenovo-IdeaPad-Yoga-13's conflicted copy 2014-01-16).rghvec"
+		"/Users/denis/Dropbox/thesis/projects/bayesian_inversion_of_npz_model/latex/article.fdb_latexmk"
 	],
 	"find":
 	{
@@ -397,6 +363,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"paragraph",
+			"* ",
+			"\\include",
 			"position",
 			"*position",
 			"[0][0][0]",
@@ -521,10 +490,7 @@
 			"franks2002joo",
 			"anderson2005jpr",
 			"petihakis2002jms",
-			"badran2005oceanologia",
-			"lme_33",
-			"\\cite",
-			"includegraphics"
+			"badran2005oceanologia"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -539,100 +505,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4931,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4893,
-								4893
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Read Me.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1590,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/denis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 178,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								167,
-								167
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 23.0
@@ -672,7 +544,6 @@
 	{
 		"height": 0.0
 	},
-	"project": "proposal.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -683,6 +554,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"chap",
+				"latex/Chapter_2.tex"
+			],
+			[
+				"thesi",
+				"latex/Thesis.tex"
+			],
 			[
 				"thesis.tex",
 				"KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.tex"
@@ -870,14 +749,13 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 196.0,
 	"status_bar_visible": true,
 	"template_settings":
