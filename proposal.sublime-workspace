@@ -218,10 +218,10 @@
 	},
 	"file_history":
 	[
+		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_2.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Conclusion.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_4.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_3.tex",
-		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_2.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Abstract.tex",
 		"/Users/denis/Dropbox/repos/proposal/KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.tex",
 		"/Users/denis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -555,8 +555,24 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"latex/Introduction.tex"
+			],
+			[
+				"con",
+				"latex/Conclusion.tex"
+			],
+			[
 				"chap",
-				"latex/Chapter_2.tex"
+				"latex/Chapter_4.tex"
+			],
+			[
+				"ch",
+				"latex/Chapter_3.tex"
+			],
+			[
+				"the",
+				"latex/Thesis.tex"
 			],
 			[
 				"thesi",
@@ -727,11 +743,11 @@
 		"selected_items":
 		[
 			[
-				"cov",
-				"~/Dropbox/thesis/projects/current_projects/chl_and_space_time_cov_model/py/chl_and_cov.sublime-workspace"
+				"",
+				"~/Dropbox/repos/npz/npz.sublime-project"
 			],
 			[
-				"",
+				"cov",
 				"~/Dropbox/thesis/projects/current_projects/chl_and_space_time_cov_model/py/chl_and_cov.sublime-workspace"
 			],
 			[
