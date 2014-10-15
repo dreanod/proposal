@@ -93,18 +93,22 @@ Section \ref{intro:context} provides details about phytoplankton: its biology an
 
 		\subsubsection{Deterministic approaches}
 
-			\begin{itemize}
-				\item NPZ/D
-				\item ERSEM
-			\end{itemize}
+			% NPZ/D
+			One of the simplest model for phytoplankton growth is the Nutrient-Phytoplankton-Zooplankton (NPZ) model. It is uses Ordinary Differential Equations (ODE) to simulate the relative quantity of each of the state variables $N$ (nutrient), $P$ (phytoplankton) and $Z$ (zooplankton) in terms of a chemical specie. I provide details on the NPZ model in section \ref{physstat:EM}. There is an infinity of variants to the NPZ model. One can use the NPD model, where D stands for "Detritus". Different groups of phytoplankton can be differentiated, and one can have $P_1$, $P_2$ and $P_3$ for diatoms, flagellates and cyanobacteria. Differents species between these groups can be represented as well as higher trophic levels, etc.
+
+			% ERSEM
+			On this opposite side of the NPZ model in this range of refinements, one can find very sophisticated models such as ERSEM (European Regional Seas Ecological Model). Such models allow for a complete ecosystem simulation on the scale of a regional sea, such a the North Sea [ref] or the Red Sea [ref]. They are however very difficult to calibrate and operate, due to the enormous number of variables needed [ref]. There is therefore a debate on their usefulness compared to smaller models [ref]. 
 
 		\subsubsection{Statistical approaches}
 
-			\begin{itemize}
-				\item Neural networks
-				\item EOF
-				\item Time series
-			\end{itemize}
+			% Time series
+			Time series records of biological and physical measurements such as Bermuda Atlantic Time-Series (BATS) have been made publicly available since the 50s, and have inspired the use of time series statistical tools for primary production. Well known examples are [ref]. Forecasting the chlorophyll concentrations have used ... [ref].
+
+			% EOF
+			Empirical Orthogonal Functions (EOF) are a useful tool for the exploration of large space-time datasets. Their use for remotely-sensed chlorophyll data has been made possible thanks to data filling algorithms like DINEOF. DINEOF is explained in more details in section \ref{datadriv:covmod}. EOF analysis for chlorophyll concentration have been made in the Gulf of Alaska [ref], the United States South Atlantic Bight[ref] and the Mediterranean [ref].
+
+			% Neural networks
+			Neural networks, a machine learning algorithm, has been used to predict phytoplankton blooms from remotely-sensed data. Examples studies include [ref]
 
 \section{Open Questions}
 \label{intro:questions}

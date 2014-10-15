@@ -123,7 +123,7 @@
 			"file": "latex/Introduction.tex",
 			"settings":
 			{
-				"buffer_size": 6935,
+				"buffer_size": 9552,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -540,15 +540,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6935,
+						"buffer_size": 9552,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5556,
-								5556
+								8697,
+								8697
 							]
 						],
 						"settings":
@@ -557,10 +557,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1649.0,
+						"translation.y": 3165.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -576,8 +576,8 @@
 						"selection":
 						[
 							[
-								4166,
-								4166
+								3394,
+								3394
 							]
 						],
 						"settings":
@@ -585,10 +585,10 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1837.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -645,7 +645,23 @@
 		"selected_items":
 		[
 			[
+				"thes",
+				"latex/Thesis.tex"
+			],
+			[
+				"",
+				"latex/Introduction.tex"
+			],
+			[
 				"the",
+				"latex/Thesis.tex"
+			],
+			[
+				"int",
+				"latex/Introduction.tex"
+			],
+			[
+				"t",
 				"latex/Thesis.tex"
 			],
 			[
@@ -675,10 +691,6 @@
 			[
 				"thesis.tex",
 				"KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.tex"
-			],
-			[
-				"",
-				"chap1/fahrenheit.c"
 			],
 			[
 				"position",
@@ -838,7 +850,7 @@
 		[
 			[
 				"",
-				"~/Dropbox/repos/npz/npz.sublime-project"
+				"~/Dropbox/Documents/logs/logs.sublime-project"
 			],
 			[
 				"cov",
