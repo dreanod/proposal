@@ -113,28 +113,26 @@ Section \ref{intro:context} provides details about phytoplankton: its biology an
 \section{Open Questions}
 \label{intro:questions}
 
-	\begin{itemize}
-		\item Sources of nutrients
-		\item Seasonal blooms
-		\item Extreme Blooms
-		\item Predictability of CHL
-	\end{itemize}
+	In the previous section, I summarized the state of the knowledge for large scales dynamics of phytoplankton concentration in general, in the Red Sea in particular. In this section, I would like to emphasize some open questions. 
 
-\section{Objectives and contributions}
+	Despite the Red Sea being extremely oligotrophic, very important bloom episode can take place in it. The causes of these extreme blooms has not been found. Several hypotheses have been made: dust storms, wind-induced mixing, eddies, etc. To this date however, the source of nutrients for these blooms has not been found.
+
+	The presence of these unexplained blooms causes a problem for predicting the chlorophyll and phytoplankton concentrations. Currently, simulations in the Red Sea are able to resolve the seasonal dynamics. However being, able to forecast at shorter terms is desirable in order to better understand the Red Sea ecosystem. 
+
+\section{Objectives}
 \label{intro:objectives}
+	
+	The first objective of my work is to identify possible causes of extreme blooms in the Red Sea. In particular, I will try to see if extreme blooms and seasonal blooms are driven by the same factors. To answer this question, it will be necessary to develop precise definitions for extreme blooms and seasonal blooms. 
 
-	\begin{itemize}
-		\item Predictability of CHL in Red Sea
-		\item Sources of nutrients
-		\item Causes of extreme blooms
-		\item Best approache for CHL forecasting in Red Sea
-	\end{itemize}
+	The second objective is to develop approaches to forecast chlorophyll levels in the Red Sea. Different ranges for chlorophyll forecasted will have to be chosen. The different solutions for forecasting also need to be compared to a common measure. 
 
 \section{Outline}
 \label{intro:outline}
 
-	\begin{itemize}
-		\item data-driven approach
-		\item mixed approach
-		\item model-driven approach
-	\end{itemize}
+	There are two major paradigms that one can use to model space-time datasets: data-driven or model-driven. Data-driven approaches include statistical or machine learning modeling techniques. They are generic methods that can be applied to widely different a unrelated classes of problem, because they make no assumption on the phenomenon behind the data. Model-driven approaches, on the contrary, simulate the physical processes that generate the data. Finally, the recent advent of hierarchical modeling has allowed the development of mixed approaches.
+
+	% In chapter \ref{datadriv}, I explore data-driven approaches. I summarize a study I have done on space-time covariance models used in conjunction with a Kalman filter for forecasting chlorophyll concentration anomalies. This work has been submitted for publication. Future extensions to this work will be outlined.
+
+	% In chapter \ref{physstat}, I outline a study currently ongoing on the use of a simple NPZ model embedded in a hierarchical model for the northern Red Sea ecosystem state a parameters estimation. The first part of this study, that uses an Expectation-Maximization estimation with a smoothing ensemble algorithm, is in preparation for publication. Future works will include the use of a sequential Monte-Carlo sampler and a Gaussian Mixture model.
+
+	% In chapter \ref{moddriv}, a future work is outlined, that will use a complex coupled ecosystem model to forecast the chlorophyll concentration in the Red Sea. This will allow us to identify the factors explaining the extreme blooms in the regions.

@@ -117,25 +117,6 @@
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "latex/Introduction.tex",
-			"settings":
-			{
-				"buffer_size": 9552,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "latex/Thesis.tex",
-			"settings":
-			{
-				"buffer_size": 4951,
-				"line_ending": "Unix"
-			}
-		}
-	],
 	"build_system": "",
 	"command_palette":
 	{
@@ -235,20 +216,18 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/denis/Dropbox/repos/proposal"
-	],
 	"file_history":
 	[
-		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_2.tex",
-		"/Users/denis/Dropbox/repos/proposal/latex/Conclusion.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Abstract.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Thesis.tex",
+		"/Users/denis/Dropbox/repos/proposal/.gitignore",
+		"/Users/denis/Dropbox/repos/proposal/proposal.sublime-project",
 		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_4.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_3.tex",
-		"/Users/denis/Dropbox/repos/proposal/latex/Abstract.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_2.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Conclusion.tex",
 		"/Users/denis/Dropbox/repos/proposal/KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.tex",
 		"/Users/denis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/denis/Dropbox/repos/proposal/proposal.sublime-project",
 		"/Users/denis/Dropbox/repos/proposal/KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Read Me.txt",
 		"/Users/denis/Dropbox/repos/proposal/proposal.tex",
 		"/Users/denis/Dropbox/repos/proposal/KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.acn",
@@ -366,17 +345,15 @@
 		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/clean_workspace.py",
 		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/latex/Bayesian_NPZ.bib",
 		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/latex/Bayesian NPZ.bib",
-		"/Users/denis/Dropbox/repos/phd/bayesian-inversions-of-npz-model/bayesian_inversion_of_npz_model.sublime-project",
-		"/Users/denis/Dropbox/thesis/projects/current_projects/chl_and_space_time_cov_model/latex/article.fff",
-		"/Users/denis/Dropbox/thesis/projects/bayesian_inversion_of_npz_model/latex/article.fdb_latexmk"
+		"/Users/denis/Dropbox/repos/phd/bayesian-inversions-of-npz-model/bayesian_inversion_of_npz_model.sublime-project"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 54.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
@@ -386,6 +363,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"			\n",
 			"paragraph",
 			"* ",
 			"\\include",
@@ -512,8 +490,7 @@
 			"statistics_for_spatio_temporal_data",
 			"franks2002joo",
 			"anderson2005jpr",
-			"petihakis2002jms",
-			"badran2005oceanologia"
+			"petihakis2002jms"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -528,72 +505,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "latex/Introduction.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9552,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8697,
-								8697
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3165.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "latex/Thesis.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4951,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3394,
-								3394
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 23.0
@@ -633,7 +544,6 @@
 	{
 		"height": 0.0
 	},
-	"project": "proposal.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -645,12 +555,36 @@
 		"selected_items":
 		[
 			[
-				"thes",
+				"",
+				"latex/Chapter_2.tex"
+			],
+			[
+				"h",
+				"latex/Chapter_2.tex"
+			],
+			[
+				"tes",
 				"latex/Thesis.tex"
 			],
 			[
-				"",
+				"th",
+				"latex/Thesis.tex"
+			],
+			[
+				"cha",
+				"latex/Chapter_4.tex"
+			],
+			[
+				"in",
 				"latex/Introduction.tex"
+			],
+			[
+				"chap",
+				"latex/Chapter_3.tex"
+			],
+			[
+				"thes",
+				"latex/Thesis.tex"
 			],
 			[
 				"the",
@@ -669,16 +603,8 @@
 				"latex/Introduction.tex"
 			],
 			[
-				"in",
-				"latex/Introduction.tex"
-			],
-			[
 				"con",
 				"latex/Conclusion.tex"
-			],
-			[
-				"chap",
-				"latex/Chapter_4.tex"
 			],
 			[
 				"ch",
@@ -871,7 +797,6 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},
