@@ -218,13 +218,15 @@
 	},
 	"file_history":
 	[
+		"/Users/denis/Dropbox/repos/proposal/latex/Appendix_B.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Appendix_A.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Abstract.tex",
+		"/Users/denis/Dropbox/repos/proposal/proposal.sublime-project",
+		"/Users/denis/Dropbox/repos/proposal/.gitignore",
 		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_4.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_3.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_2.tex",
-		"/Users/denis/Dropbox/repos/proposal/latex/Abstract.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Thesis.tex",
-		"/Users/denis/Dropbox/repos/proposal/.gitignore",
-		"/Users/denis/Dropbox/repos/proposal/proposal.sublime-project",
 		"/Users/denis/Dropbox/repos/proposal/latex/Conclusion.tex",
 		"/Users/denis/Dropbox/repos/proposal/KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.tex",
 		"/Users/denis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -343,9 +345,7 @@
 		"/Users/denis/Dropbox/thesis/projects/current_projects/chl_red_sea_clust/src/gmm1.py",
 		"/Users/denis/Dropbox/thesis/data/tools/h4h5tools-2.2.2/README.txt",
 		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/clean_workspace.py",
-		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/latex/Bayesian_NPZ.bib",
-		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/latex/Bayesian NPZ.bib",
-		"/Users/denis/Dropbox/repos/phd/bayesian-inversions-of-npz-model/bayesian_inversion_of_npz_model.sublime-project"
+		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/latex/Bayesian_NPZ.bib"
 	],
 	"find":
 	{
@@ -555,6 +555,14 @@
 		"selected_items":
 		[
 			[
+				"the",
+				"latex/Thesis.tex"
+			],
+			[
+				"",
+				"latex/Chapter_2.tex"
+			],
+			[
 				"chap",
 				"latex/Chapter_4.tex"
 			],
@@ -571,10 +579,6 @@
 				"latex/Thesis.tex"
 			],
 			[
-				"",
-				"latex/Chapter_2.tex"
-			],
-			[
 				"h",
 				"latex/Chapter_2.tex"
 			],
@@ -589,10 +593,6 @@
 			[
 				"in",
 				"latex/Introduction.tex"
-			],
-			[
-				"the",
-				"latex/Thesis.tex"
 			],
 			[
 				"int",
