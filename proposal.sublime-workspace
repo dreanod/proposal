@@ -218,13 +218,13 @@
 	},
 	"file_history":
 	[
+		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_4.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_3.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_2.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Abstract.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Thesis.tex",
 		"/Users/denis/Dropbox/repos/proposal/.gitignore",
 		"/Users/denis/Dropbox/repos/proposal/proposal.sublime-project",
-		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_4.tex",
-		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_3.tex",
-		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_2.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Conclusion.tex",
 		"/Users/denis/Dropbox/repos/proposal/KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.tex",
 		"/Users/denis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -555,6 +555,22 @@
 		"selected_items":
 		[
 			[
+				"chap",
+				"latex/Chapter_4.tex"
+			],
+			[
+				"cha",
+				"latex/Chapter_2.tex"
+			],
+			[
+				"intr",
+				"latex/Introduction.tex"
+			],
+			[
+				"thes",
+				"latex/Thesis.tex"
+			],
+			[
 				"",
 				"latex/Chapter_2.tex"
 			],
@@ -571,20 +587,8 @@
 				"latex/Thesis.tex"
 			],
 			[
-				"cha",
-				"latex/Chapter_4.tex"
-			],
-			[
 				"in",
 				"latex/Introduction.tex"
-			],
-			[
-				"chap",
-				"latex/Chapter_3.tex"
-			],
-			[
-				"thes",
-				"latex/Thesis.tex"
 			],
 			[
 				"the",
@@ -597,10 +601,6 @@
 			[
 				"t",
 				"latex/Thesis.tex"
-			],
-			[
-				"intr",
-				"latex/Introduction.tex"
 			],
 			[
 				"con",
