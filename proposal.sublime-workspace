@@ -218,13 +218,13 @@
 	},
 	"file_history":
 	[
+		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_3.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Appendix_B.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Appendix_A.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Abstract.tex",
 		"/Users/denis/Dropbox/repos/proposal/proposal.sublime-project",
 		"/Users/denis/Dropbox/repos/proposal/.gitignore",
 		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_4.tex",
-		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_3.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_2.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Thesis.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Conclusion.tex",
@@ -555,16 +555,20 @@
 		"selected_items":
 		[
 			[
-				"the",
-				"latex/Thesis.tex"
-			],
-			[
 				"",
 				"latex/Chapter_2.tex"
 			],
 			[
+				"th",
+				"latex/Thesis.tex"
+			],
+			[
 				"chap",
-				"latex/Chapter_4.tex"
+				"latex/Chapter_2.tex"
+			],
+			[
+				"the",
+				"latex/Thesis.tex"
 			],
 			[
 				"cha",
@@ -584,10 +588,6 @@
 			],
 			[
 				"tes",
-				"latex/Thesis.tex"
-			],
-			[
-				"th",
 				"latex/Thesis.tex"
 			],
 			[

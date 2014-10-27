@@ -21,31 +21,28 @@
 		\subsection{Subtask 1.3: Deriving a covariance model from NPZ dynamics}
 		\label{datadriv:npzcov}
 
-			% In section \ref{datadriv:covmod}, we chose the covariance model from a parametric family. However, in particular cases, in can be derived from a differential equation model, like in [ref] for the heat equation. The NPZ model (described in detail in chapter \ref{physstat}) can be coupled to a diffusion advection model to give a dynamical 2D process. In this part, I will derive the covariance model from this coupled model following the approach of [ref]. I will also compare its performance to the model fitted in \ref{datadriv:covmod} for prediction in a Kalman filter. 
+			In the two previous subtasks, we will use predefined families of covariance models. In this part, we want to derive the space-time covariance model from a deterministic model, following the method of [ref] and [ref]. The model we will use is the ecological Nutrient-Phytoplankton-Zooplankton model (NZP) [ref]. We will compare this model with the previous two approaches in the context of Kalman filter.
 
 	\section{Task 2: Physical-statistical modeling}
 	\label{physstat}
 
+		The second part of the Thesis will mix physical models and statistical models using an approach called hierarchical modeling. The resulting models are also called Physical-statistical models. Specifically, in Task 2, I will use an NPZ model and time-series of remotely sensed chloropyll observation to estimate the nutrient flux in a region of the northern Red Sea.
+
 		\subsection{Subtask 2.1: Expectation-Maximization with NPZ model}
 		\label{physstat:EM}
 
-			<paper with Boujeema>
+			In this subtask, I will design a hierarchical model for the chlorophyll concentration that uses the NPZ model. The parameters of the model and the state are estimated using the Expectation-Maximization (EM) algorithm, following the approach of [ref]. This task is in progress. 
+			
 
-		\subsection{Subtask 2.2: Bayesian approach}
+		\subsection{Subtask 2.2: Monte-Carlo sampling}
 		\label{physstat:bayes}
 
-			\begin{itemize}
-				\item Motivate Bayesian approach
-				\item Outline future works
-			\end{itemize}
+			In subtask, I will use a Monte-Carlo sampling approach to estimate the state and the parameters. In order to do it, I will need to define a prior on the parameters. 
 
 		\subsection{Subtask 2.3: Gaussian mixture model smoothing}
 		\label{physstat:GM}
 
-			\begin{itemize}
-				\item Motivate Gaussian mixture model
-				\item Outline future works
-			\end{itemize}
+			In this last subtask, the EM algorithm from subtask 2.1 in modified in order to use a Gaussian Mixture Model smoothing, instead of the regular Ensemble Kalman Smoothing.  
 
 	\section{Task 3: Data Assimilation of a complex deterministic ecological model}
 	\label{moddriv}
