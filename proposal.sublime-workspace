@@ -219,13 +219,13 @@
 	"file_history":
 	[
 		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_3.tex",
+		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_2.tex",
+		"/Users/denis/Dropbox/repos/proposal/proposal.sublime-project",
 		"/Users/denis/Dropbox/repos/proposal/latex/Appendix_B.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Appendix_A.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Abstract.tex",
-		"/Users/denis/Dropbox/repos/proposal/proposal.sublime-project",
 		"/Users/denis/Dropbox/repos/proposal/.gitignore",
 		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_4.tex",
-		"/Users/denis/Dropbox/repos/proposal/latex/Chapter_2.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Thesis.tex",
 		"/Users/denis/Dropbox/repos/proposal/latex/Conclusion.tex",
 		"/Users/denis/Dropbox/repos/proposal/KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.tex",
@@ -556,10 +556,6 @@
 		[
 			[
 				"",
-				"latex/Chapter_2.tex"
-			],
-			[
-				"th",
 				"latex/Thesis.tex"
 			],
 			[
@@ -568,6 +564,10 @@
 			],
 			[
 				"the",
+				"latex/Thesis.tex"
+			],
+			[
+				"th",
 				"latex/Thesis.tex"
 			],
 			[
